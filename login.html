@@ -2,31 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>My Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="lp-parent">
 <header id="lp-header">
-    <h2>Welcome to Malcolm's</h2><br>
-    <h1>Website</h1><br>
-    <p>
+    <img src="assets/my-logo.png" alt="My-black-infinity-logo" id="logo">
+    <h1>
         PLEASE! Sign in
-    </p>
+    </h1>
 </header>
 
-<main>
-    <form action="">
-        <div id="lp-main">
-            <input type="email" name="email" id="email"><br>
-            <input type="password" name="password" id="pw"><br>
-            <input type="submit" value="Login" id="log-btn">
-        </div>
-    </form>
-</main>
+<main id="lp-main">
+    <div id="main1">
+        <form action="">
+            <div class="main-div-element">
+                <label for="email">Enter your Email</label><br>
+            </div>
+            <div class="main-div-element">
+                <input type="email" name="email" id="email"><br>
+            </div>
+            <div class="main-div-element">
+                <label for="pw"></label>Enter your Password<br>
+            </div>
+            <div class="main-div-element">
+                <input type="password" name="password" id="pw"><br>
+            </div>
+            <div class="main-div-element" id="mde1">
+                <input type="checkbox" name="remember-me" id="">
+                <label for="">Remember me</label>
+                <a href="">Forgot your password?</a><br>
+            </div>
+            <div class="main-div-element" id="mde2">
+                <input type="submit" value="Login" id="log-btn">
+            </div>
+        </form>
+    </div>
 
-<footer id="lp-footer">
-    <a href="">Malcolm Was HERE!</a>
-</footer>
+    <div id="main2">
+        <div>
+            <p>
+                New to My Website?
+            </p><br>
+        </div>
+        <div id="a-container">
+            <a id="a-btn" href="registration.html">Create your My Account</a>
+        </div>
+    </div>
+</main>
 
 <script src="script.js"></script>
 </body>

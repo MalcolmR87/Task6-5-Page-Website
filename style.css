@@ -1,14 +1,31 @@
 /*Login Page*/
-#lp-parent{background-color: blueviolet;}
+#lp-parent{background-color: #F9FAFB; background-size: cover;}
+a{color: darkred; text-decoration: none;}
+a:hover{color: #6c0000; text-decoration: underline;}
 
-lp-header{text-align: center;}
+#lp-header{text-align: center; margin-bottom: 32px; color: darkred;}
+#logo{width: 30px; height: 40px; margin-top: 32px}
 
-#lp-main{background-color: white;}
+#lp-main{margin: auto;}
+#main1{border:0.1rem solid darkgray; border-radius: 5px; width:30%; margin: auto;}
+.main-div-element{margin-top: 16px; margin-left: 32px; margin-right: 16px;}
+#email{width:90%; height: 35px; border-radius: 5px;}
+#pw{width:90%; height: 35px; border-radius: 5px;}
+#mde1{display: flex;}
+#mde1 a{margin-left: 150px;}
+#mde2{margin-bottom: 16px;}
+#log-btn{color:white; background-color: darkred; width: 91.5%; height: 40px; border-radius: 5px;}
+#log-btn:hover{background-color: #6c0000;}
+
+#main2{text-align: center; border:0.1rem solid darkgray; border-radius: 5px; width:30%; margin: auto;}
+#a-container{text-align:center; margin-top: -16px; margin-bottom: 32px;}
+#a-btn{border:0.1rem solid darkgray; text-align:center; margin-right: 20px; padding: 10px 120px; background-color: #cecece; border-radius: 5px;}
+#a-btn:hover{background-color: #b6b6b6;}
 
 #lp-footer{}
 
 /*Homepage*/
-#hp-parent{position:relative; background-image: url(./hp-bg.jpg); color:white;}
+#hp-parent{position:relative; color:white;}
 
 #hp-header{color: yellow; text-align: center; margin-bottom: 5%;}
 
