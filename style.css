@@ -1,7 +1,5 @@
 /*Login Page*/
 #lp-parent{background-color: #F9FAFB; background-size: cover;}
-a{color: darkred; text-decoration: none;}
-a:hover{color: #6c0000; text-decoration: underline;}
 
 #lp-header{text-align: center; margin-bottom: 32px; color: darkred;}
 #logo{width: 30px; height: 40px; margin-top: 32px}
@@ -9,20 +7,19 @@ a:hover{color: #6c0000; text-decoration: underline;}
 #lp-main{margin: auto;}
 #main1{border:0.1rem solid darkgray; border-radius: 5px; width:30%; margin: auto;}
 .main-div-element{margin-top: 16px; margin-left: 32px; margin-right: 16px;}
-#email{width:90%; height: 35px; border-radius: 5px;}
-#pw{width:90%; height: 35px; border-radius: 5px;}
+#email{width:90%; height: 35px; border-radius: 5px; padding-left: 16px;}
+#pw{width:90%; height: 35px; border-radius: 5px; padding-left: 16px;}
 #mde1{display: flex;}
-#mde1 a{margin-left: 150px;}
+#mde1 a{margin-left: 162px; color: darkred; text-decoration: none;}
+#mde1 a:hover{color: #6c0000; text-decoration: underline;}
 #mde2{margin-bottom: 16px;}
-#log-btn{color:white; background-color: darkred; width: 91.5%; height: 40px; border-radius: 5px;}
+#log-btn{color:white; background-color: darkred; width: 95%; height: 40px; border-radius: 5px;}
 #log-btn:hover{background-color: #6c0000;}
 
 #main2{text-align: center; border:0.1rem solid darkgray; border-radius: 5px; width:30%; margin: auto;}
 #a-container{text-align:center; margin-top: -16px; margin-bottom: 32px;}
-#a-btn{border:0.1rem solid darkgray; text-align:center; margin-right: 20px; padding: 10px 120px; background-color: #cecece; border-radius: 5px;}
-#a-btn:hover{background-color: #b6b6b6;}
-
-#lp-footer{}
+#a-btn{border:0.1rem solid darkgray; text-align:center; margin-right: 5px; padding: 10px 120px; background-color: #cecece; border-radius: 5px; color: darkred; text-decoration: none;}
+#a-btn:hover{background-color: #b6b6b6; color: #6c0000; text-decoration: underline;}
 
 /*Homepage*/
 #hp-parent{position:relative; color:white;}
@@ -58,18 +55,10 @@ a:hover{color: #6c0000; text-decoration: underline;}
 #p-footer a:hover{color:yellow; font-weight: bold;}
 
 /*Registration*/
-#r-parent{position: relative; background-image:url(./r-bg.jpg); background-size: 100%; color: white;}
+#r-header{display: flex; justify-content: center;}
+#r-logo{width: 30px; height: 40px; margin-top: 32px}
 
-#r-header{text-align: center; margin-bottom: 5%;}
-
-#r-nav{display: flex; justify-content: space-between; margin-left: 30px; margin-right: 30px; margin-top: 24px;} #r-nav a{text-decoration: none;}
-#r-nav a:hover{color:white; font-weight: bold;}
-
-#r-section h2{text-align: center; margin-top: 7%; margin-bottom: 3%;}
-#r-section input{width: 30%; display: flex; justify-content: center; text-align: center; margin:auto; background-color: purple; border-radius: 15px;}
-
-#r-footer{position: absolute; bottom: -450px; text-align: center; margin-left: 750px;}
-#r-footer a:hover{color:white; font-weight: bold;}
+#r-main{}
 
 /*Contacts*/
 #c-parent{position: relative; background-image:url(./c-bg.jpeg);}

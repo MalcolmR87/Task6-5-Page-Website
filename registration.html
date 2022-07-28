@@ -7,26 +7,62 @@
     <title>Registration</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="r-parent">
+<body>
     <header id="r-header">
-        <h1>Registration</h1>
+        <a href="index.html"><img src="assets/my-logo.png" alt="My-black-infinity-logo" id="r-logo"></a>
     </header>
 
-    <nav id="r-nav">
-        <a href="index.html">Homepage</a>
-        <a href="product.html">Product</a>
-        <a href="registration.html">Registration</a>
-        <a href="contact.html">Contact</a>
-        <a href="etc.html">Etc</a>
-    </nav>
-
-    <section id="r-section">
-        <h2>Registration Form</h2>
-        <input type="text" name="fname" id="fname" placeholder="First Name"><br>
-        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
-        <input type="text" name="address" id="address" placeholder="Address"><br>
-        <input type="text" name="address2" id="address2" placeholder="Address 2">
-    </section>
+    <main id="r-main">
+        <div>
+            <h2>Create an Account</h2><br>
+        </div>
+        <form action="index.html">
+            <div>
+                <label for="fname">First Name</label><br>
+            </div>
+            <div>
+                <input type="text" name="fname" id="fname"><br>
+            </div>
+            <div>
+                <label for="lname">Last Name</label><br>
+            </div>
+            <div>
+                <input type="text" name="lname" id="lname"><br>
+            </div>
+            <div>
+                <label for="r-email">Email</label><br>
+            </div>
+            <dvi>
+                <input type="email" name="email" id="r-email"><br>
+            </dvi>
+            <div>
+                <label for="r-pw">Password</label><br>
+            </div>
+            <div>
+                <input type="password" name="password" id="r-pw"><br>
+            </div>
+            <div>
+                <label for="r-re-pw">Re-enter Password</label><br>
+            </div>
+            <div>
+                <input type="password" name="re-password" id="r-re-pw"><br>
+            </div>
+            <div>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <p>
+                        Already have an account?
+                    </p>
+                </div>
+                <div>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+        </form>
+    </main>
 
     <footer id="r-footer">
         <a href="">Malcolm Was HERE!</a>
