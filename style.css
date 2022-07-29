@@ -58,7 +58,16 @@
 #r-header{display: flex; justify-content: center;}
 #r-logo{width: 30px; height: 40px; margin-top: 32px}
 
-#r-main{}
+#r-main{border: 0.1rem solid darkgray; border-radius: 5px; width:25%; margin: auto; padding-left: 24px;}
+.m-bottom{margin-bottom: 24px;}
+.m-width{width:90%; height:20px;}
+.m-text{font-size: small; margin-bottom: 8px; font-weight: bold;}
+#submit{width:92%; background-color: darkred; color: white; height: 30px;}
+#submit:hover{background-color: #6c0000;}
+#r-footer{display: flex; justify-content: center; align-items: center;}
+#r-footer a{margin-left: 10px; text-decoration: none; color: darkred;}
+#r-footer a:hover{text-decoration: underline; color: #6c0000;}
+#p-text{font-size: small;}
 
 /*Contacts*/
 #c-parent{position: relative; background-image:url(./c-bg.jpeg);}
